@@ -1,11 +1,11 @@
 <aspectj>
 <aspects>
 <aspect name="com.mycompany.nearestcab.domain.Cab_Roo_Json"/>
-<aspect name="com.mycompany.nearestcab.domain.Cab_Roo_ToString"/>
 <aspect name="com.mycompany.nearestcab.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.mycompany.nearestcab.domain.Cab_Roo_ToString"/>
 <aspect name="com.mycompany.nearestcab.domain.Cab_Roo_Configurable"/>
-<aspect name="com.mycompany.nearestcab.domain.Cab_Roo_Jpa_Entity"/>
 <aspect name="com.mycompany.nearestcab.domain.Cab_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.mycompany.nearestcab.domain.Cab_Roo_Jpa_Entity"/>
 <aspect name="com.mycompany.nearestcab.domain.Cab_Roo_JavaBean"/>
 <aspect name="com.mycompany.nearestcab.controller.CabController_Roo_Controller"/>
 </aspects>
