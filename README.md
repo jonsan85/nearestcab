@@ -24,6 +24,6 @@ SETUP Instructions
 
 Alternatively, download the zip file, run
 
-- make sure export DATABASE_URL=postgres://<username>:<password>@localhost:5432/<databaseName>
+- make sure export DATABASE_URL=postgres://[username]:[password]@localhost:5432/[databaseName]
 - mvn clean install
 - java -jar target/dependency/jetty-runner.jar target/*.war
