@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="9.067" errors="0" skipped="0" tests="13" name="com.mycompany.nearestcab.domain.CabIntegrationTest">
+<testsuite failures="0" time="6.118" errors="0" skipped="0" tests="13" name="com.mycompany.nearestcab.domain.CabIntegrationTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.6.0_45\jre\bin"/>
@@ -43,7 +43,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="c:\Program Files\Java\jdk1.6.0_45\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,17 +60,17 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="8.409" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFindCab"/>
-  <testcase time="0.085" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFlush"/>
-  <testcase time="0.146" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testGetRelevantCabs"/>
-  <testcase time="0.079" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testPersist"/>
-  <testcase time="0.012" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testMarkerMethod"/>
-  <testcase time="0.03" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFindAllCabs"/>
-  <testcase time="0.03" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFindCabEntries"/>
-  <testcase time="0.033" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testMergeUpdate"/>
-  <testcase time="0.087" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testPutCreateUpdate"/>
-  <testcase time="0.074" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFindCabEntriesRO"/>
-  <testcase time="0.028" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testRemove"/>
-  <testcase time="0.029" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testGetDistance"/>
-  <testcase time="0.025" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testCountCabs"/>
+  <testcase time="5.619" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFindCab"/>
+  <testcase time="0.052" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFlush"/>
+  <testcase time="0.095" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testGetRelevantCabs"/>
+  <testcase time="0.098" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testPersist"/>
+  <testcase time="0.019" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testMarkerMethod"/>
+  <testcase time="0.024" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFindAllCabs"/>
+  <testcase time="0.025" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFindCabEntries"/>
+  <testcase time="0.022" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testMergeUpdate"/>
+  <testcase time="0.065" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testPutCreateUpdate"/>
+  <testcase time="0.036" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testFindCabEntriesRO"/>
+  <testcase time="0.029" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testRemove"/>
+  <testcase time="0.017" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testGetDistance"/>
+  <testcase time="0.017" classname="com.mycompany.nearestcab.domain.CabIntegrationTest" name="testCountCabs"/>
 </testsuite>
