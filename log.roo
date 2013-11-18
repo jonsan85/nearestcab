@@ -1,0 +1,30 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-16 16:26:42
+project --topLevelPackage com.mycompany.nearestcab --projectName nearestcab --java 7 --packaging JAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-16 16:26:47
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-16 16:26:59
+// [failed] jpa setup --database POSTGRES --provider HIBERNATE --hostName localhost --userName itdev --password password --databaseName myDB
+// [failed] persistence setup --database POSTGRES --provider HIBERNATE --hostName localhost --userName itdev --password password --databaseName myDB
+persistence setup --database POSTGRES --provider HIBERNATE --hostName localhost --userName itdev --password password --databaseName myDB
+entity jpa --class ~.domain.Cab --testAutomatically
+field number --fieldName id --type int --unique --notNull
+field number --fieldName latitude --type double --notNull
+field number --fieldName longitude --type double --notNull
+json all
+controller all --package ~.controller
+logging setup --level INFO --package ALL_SPRING
+web mvc install view --path ext --viewName index --title "WS"
+perform tests
+help
+perform tests
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-16 18:43:34
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-16 18:46:12
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-16 18:49:39
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-16 19:07:00
+perform tests
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-16 19:10:56
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-16 19:43:36
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-16 22:30:25
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-17 00:59:56
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-17 01:02:44
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-17 01:04:06
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-17 21:49:56

@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="com.mycompany.nearestcab.domain.CabDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.mycompany.nearestcab.domain.CabDataOnDemand_Roo_Configurable"/>
+<aspect name="com.mycompany.nearestcab.domain.CabIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.mycompany.nearestcab.domain.CabIntegrationTest_Roo_Configurable"/>
+</aspects>
+</aspectj>
+
