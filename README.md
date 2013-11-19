@@ -37,6 +37,7 @@ Usage examples
 The left menu shows 2 sections: CAB and VIEW
 
 CAB
+===
 1. This renders the Create new Cab and List all Cabs. 
 2. Create new cab shows a form that user can input to create a cab. 
 3. It utilizes POST and mimetype header application/xml.
@@ -44,6 +45,7 @@ CAB
 5. It utilizes GET and mimetype header application/xml.
 
 VIEW
+====
 1. This renders the Web Service Test.
 2. The mimetype header is application/json.
 3. All supported method and urls below. The normal response is 200 OK:
