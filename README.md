@@ -81,12 +81,12 @@ VIEW
 
    [GET]
    http://gentle-garden-4541.herokuapp.com/cabs?latitude=37.763658&longitude=-122.427521&radius=1000000&limit=15
-   Return html result as table.
-   A maximum of 15 cabs, each with distance no more than 1 km away from given latitude and longitude will be returned.
+   +Return html result as table.
+   +A maximum of 15 cabs, each with distance no more than 1 km away from given latitude and longitude will be returned.
    
    [GET]
-   http://gentle-garden-4541.herokuapp.com/cabs?page=1&size=10
-   Return html result as table with scrollable pages. Page 1 is shown. Each page shows a maximum of 10 cabs.
+   +http://gentle-garden-4541.herokuapp.com/cabs?page=1&size=10
+   +Return html result as table with scrollable pages. Page 1 is shown. Each page shows a maximum of 10 cabs.
    
    
 
