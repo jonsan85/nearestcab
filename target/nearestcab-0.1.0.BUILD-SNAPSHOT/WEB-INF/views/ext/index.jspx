@@ -4,10 +4,10 @@
 <jsp:output doctype-root-element="HTML" doctype-system="about:legacy-compat" />
 <jsp:directive.page contentType="text/html;charset=UTF-8" /> 
 <head>
-<link rel="stylesheet" type="text/css" href="/nearestcab/resources/ExtJS/css/ext-all.css"><!-- //required for FF3 and Opera --></link> 
-	<script type="text/javascript" src="/nearestcab/resources/ExtJS/lib/ext/ext-base-debug.js"><!-- //required for FF3 and Opera --></script> 
-<script type="text/javascript" src="/nearestcab/resources/ExtJS/lib/ext/ext-all-debug.js"><!-- //required for FF3 and Opera --></script> 
-<script type="text/javascript" src="/nearestcab/resources/ExtJS/restTest.js"><!-- //required for FF3 and Opera --></script>
+<link rel="stylesheet" type="text/css" href="/resources/ExtJS/css/ext-all.css"><!-- //required for FF3 and Opera --></link> 
+	<script type="text/javascript" src="/resources/ExtJS/lib/ext/ext-base-debug.js"><!-- //required for FF3 and Opera --></script> 
+<script type="text/javascript" src="/resources/ExtJS/lib/ext/ext-all-debug.js"><!-- //required for FF3 and Opera --></script> 
+<script type="text/javascript" src="/resources/ExtJS/restTest.js"><!-- //required for FF3 and Opera --></script>
 </head>
 
 <div id="ext-placeholder">
