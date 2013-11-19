@@ -77,6 +77,7 @@ VIEW
    /cabs
    Remove all cabs
    
+4. Webservice method used to render front end
    [GET]
    http://gentle-garden-4541.herokuapp.com/cabs?latitude=37.763658&longitude=-122.427521&radius=1000000&limit=15
    Return html result as table.
