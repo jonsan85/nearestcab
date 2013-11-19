@@ -47,7 +47,7 @@ Ext.onReady(function(){
         	xtype: 'textfield',
         	name: 'uri',
         	fieldLabel: 'Resource URI',
-        	value: '/nearestcab/cabs'
+        	value: '/cabs'
     	}, {
         	xtype: 'combo',
         	name: 'method',

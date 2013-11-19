@@ -2,6 +2,7 @@ package com.mycompany.nearestcab.controller;
 
 import org.springframework.roo.addon.web.mvc.controller.scaffold.RooWebScaffold;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -41,6 +42,33 @@ public class CabController {
 		
 		return Cab.toJsonArray(Cab.getRelevantCabs(latitude, longitude, limit, radius));
 	}
+	
+	@RequestMapping(method = RequestMethod.GET, produces = "text/html", headers = "Accept=application/xml")
+	public String list(
+			@RequestParam(value = "latitude", required = false) Double latitude,
+			@RequestParam(value = "longitude", required = false) Double longitude,
+			@RequestParam(value = "limit", required = false) Integer limit,
+			@RequestParam(value = "radius", required = false) Double radius,
+			@RequestParam(value = "page", required = false) Integer page, 
+			@RequestParam(value = "size", required = false) Integer size, 
+			Model uiModel) {
+		
+		if (latitude != null && longitude != null) {
+			uiModel.addAttribute("cabs",Cab.getRelevantCabs(latitude, longitude, limit, radius));
+			return "cabs/list";
+		}
+
+        if (page != null || size != null) {
+            int sizeNo = size == null ? 10 : size.intValue();
+            final int firstResult = page == null ? 0 : (page.intValue() - 1) * sizeNo;
+            uiModel.addAttribute("cabs", Cab.findCabEntries(firstResult, sizeNo));
+            float nrOfPages = (float) Cab.countCabs() / sizeNo;
+            uiModel.addAttribute("maxPages", (int) ((nrOfPages > (int) nrOfPages || nrOfPages == 0.0) ? nrOfPages + 1 : nrOfPages));
+        } else {
+            uiModel.addAttribute("cabs", Cab.findAllCabs());
+        }
+        return "cabs/list";
+    }
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.PUT, headers = "Accept=application/json")
 	public ResponseEntity<String> updateFromJson(@RequestBody String json,
