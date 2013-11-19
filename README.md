@@ -53,7 +53,6 @@ VIEW
    The id attribute in json is ignored in preference of the /{id}.
    If id=3 does not exist, this will create a new cab at specified latitude and longitude.
    Otherwise, it will update the cab with id=3.  
-   
 
    [PUT]
    /cabs    Content: [{}, {}]  "json array"
@@ -61,11 +60,11 @@ VIEW
    
    [GET]
    /cabs/3  
-   Retrieve cab with id=3. 
-   
+   Retrieve json string of cab with id=3. 
+
    [GET]
    /cabs?latitude=37.763658&longitude=-122.427521&radius=1000000&limit=15  
-   Retrieve a list of cabs whose distance from the given latitude and longitude is less than the specified radius.
+   Retrieve json array of cabs whose distance from the given latitude and longitude is less than the specified radius.
    The distance is calculated from the haversine formula and is in meters.
    Latitude and longitude are the only required parameters. By default, it will limit the number of cabs to 8.
    
@@ -76,6 +75,15 @@ VIEW
    [Delete]
    /cabs
    Remove all cabs
+   
+   [GET]
+   http://gentle-garden-4541.herokuapp.com/cabs?latitude=37.763658&longitude=-122.427521&radius=1000000&limit=15
+   Return html result as table.
+   A maximum of 15 cabs, each with distance no more than 1 km away from given latitude and longitude will be returned.
+   
+   [GET]
+   http://gentle-garden-4541.herokuapp.com/cabs?page=1&size=10
+   Return html result as table with scrollable pages. Page 1 is shown. Each page shows a maximum of 10 cabs.
    
    
 
