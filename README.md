@@ -30,7 +30,7 @@ Production deployment
 1. The application was deployed to heroku:
    http://gentle-garden-4541.herokuapp.com/
 
-==============
+
 Usage examples
 ==============
 The left menu shows 2 sections: CAB and VIEW
