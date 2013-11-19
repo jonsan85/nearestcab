@@ -87,6 +87,7 @@ VIEW
    
    [GET]
    http://gentle-garden-4541.herokuapp.com/cabs?page=1&size=10
+   
    Return html result as table with scrollable pages. Page 1 is shown. Each page shows a maximum of 10 cabs.
    
    
