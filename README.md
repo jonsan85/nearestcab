@@ -17,6 +17,7 @@ SETUP Instructions
 4. Make sure mvn is installed in the system and added to path
 5. Make sure roo is installed in the system and added to path. Binary can be obtained from:
    http://docs.spring.io/downloads/nightly/snapshot-download.php?project=ROO
+<<<<<<< HEAD
    6. Make sure java is installed in the system (jdk1.6_xx)
 
    7. From eclipse, import project into workspace.
@@ -28,3 +29,15 @@ SETUP Instructions
    - mvn clean install
    - java -jar target/dependency/jetty-runner.jar target/*.war
 
+=======
+6. Make sure java is installed in the system (jdk1.6_xx)
+
+7. From eclipse, import project into workspace.
+
+
+Alternatively, download the zip file, run
+
+- make sure export DATABASE_URL=postgres://[username]:[password]@localhost:5432/[databaseName]
+- mvn clean install
+- java -jar target/dependency/jetty-runner.jar target/*.war
+>>>>>>> 83727043f1637d104c93e1b1f4c48790c745b1f1
