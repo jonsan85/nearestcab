@@ -4,7 +4,6 @@ Nearest Cab Challenge
 Thanks for checking out Nearest Cab Challenge. This web application is written in Java using Spring Roo.
 
 
-==================
 Setup Instructions
 ==================
 1. Install Eclipse Kepler 
@@ -25,7 +24,7 @@ Alternatively, download the zip file, run
 + mvn clean install
 + java -jar target/dependency/jetty-runner.jar target/*.war
 
-=====================
+
 Production deployment
 =====================
 1. The application was deployed to heroku:
