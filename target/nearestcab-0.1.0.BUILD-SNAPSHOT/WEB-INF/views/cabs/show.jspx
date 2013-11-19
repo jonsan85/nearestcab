@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_com_mycompany_nearestcab_domain_Cab" object="${cab}" path="/cabs" z="gzVA2o9FCTz0C8NIZFZqkUSfA6g=">
-        <field:display field="latitude" id="s_com_mycompany_nearestcab_domain_Cab_latitude" object="${cab}" z="ItAS+Msx2ccI4T9+ue9mqZFqTRw="/>
-        <field:display field="longitude" id="s_com_mycompany_nearestcab_domain_Cab_longitude" object="${cab}" z="jy4BF42KuhX8upBV+Nc0aqAsLuc="/>
-    </page:show>
-</div>
